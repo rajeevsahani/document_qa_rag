@@ -1,25 +1,25 @@
 📌 1. Installation & Setup
 🔹 Prerequisites
-    Make sure you have the following installed on your system:
-    Python 3.10+
-    PostgreSQL (or ChromaDB for vector storage)
-    Docker & Docker Compose (for containerization)
-    Git (for version control)
-    Pip & Virtualenv (for package management)
+Make sure you have the following installed on your system:
 
+Python 3.10+
+PostgreSQL (or ChromaDB for vector storage)
+Docker & Docker Compose (for containerization)
+Git (for version control)
+Pip & Virtualenv (for package management)
 🔹 Clone the Repository
-  bash
-  Copy
-  Edit
-  git clone https://github.com/your-repo/document-rag-qna.git
-  cd document-rag-qna
+bash
+Copy
+Edit
+git clone https://github.com/your-repo/document-rag-qna.git
+cd document-rag-qna
 🔹 Create a Virtual Environment & Install Dependencies
-  bash
-  Copy
-  Edit
-  python -m venv venv
-  source venv/bin/activate   # On macOS/Linux
-  venv\Scripts\activate      # On Windows
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
 
 pip install -r requirements.txt
 📌 2. Running the Application Locally
@@ -116,8 +116,3 @@ bash
 Copy
 Edit
 kubectl apply -f k8s-deployment.yaml
-
-
-python3 main.py
-
-python3 -m streamlit run ui.py
